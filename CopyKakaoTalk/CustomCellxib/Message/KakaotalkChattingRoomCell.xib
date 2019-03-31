@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="chattingRoomCell" rowHeight="70" id="Wc7-Oi-Rgf" customClass="KakaotalkChattingRoomCell" customModule="CopyKakaoTalk" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Wc7-Oi-Rgf" id="w3k-b8-Vfg" customClass="KakaotalkChattingRoomCell" customModule="CopyKakaoTalk" customModuleProvider="target">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ngl-0M-paJ">
+                        <rect key="frame" x="10" y="5" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="B1i-cz-iqA"/>
+                            <constraint firstAttribute="height" constant="60" id="bOH-di-pV3"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbc-5J-CIp">
+                        <rect key="frame" x="90" y="25" width="48" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="gbc-5J-CIp" secondAttribute="bottom" constant="11" id="A4C-KO-ctl"/>
+                    <constraint firstItem="ngl-0M-paJ" firstAttribute="leading" secondItem="w3k-b8-Vfg" secondAttribute="leading" constant="10" id="IKw-Ks-zBO"/>
+                    <constraint firstItem="ngl-0M-paJ" firstAttribute="top" secondItem="w3k-b8-Vfg" secondAttribute="top" constant="5" id="N6T-E6-bDN"/>
+                    <constraint firstItem="gbc-5J-CIp" firstAttribute="leading" secondItem="ngl-0M-paJ" secondAttribute="trailing" constant="20" id="hWk-N8-miw"/>
+                    <constraint firstItem="gbc-5J-CIp" firstAttribute="top" secondItem="w3k-b8-Vfg" secondAttribute="topMargin" constant="14" id="jsi-zy-XW9"/>
+                    <constraint firstAttribute="bottom" secondItem="ngl-0M-paJ" secondAttribute="bottom" constant="5" id="onw-Qk-tkj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="chattingImage" destination="ngl-0M-paJ" id="7Bn-tm-rO7"/>
+                <outlet property="chattingName" destination="gbc-5J-CIp" id="Jgc-0a-W6I"/>
+            </connections>
+            <point key="canvasLocation" x="8.8000000000000007" y="187.1064467766117"/>
+        </tableViewCell>
+    </objects>
+</document>

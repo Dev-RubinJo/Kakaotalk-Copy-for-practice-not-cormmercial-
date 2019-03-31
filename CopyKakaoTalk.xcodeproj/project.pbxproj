@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4307AF2D22360AD8006A27AD /* KakaotalkUserProfileWithStatementViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307AF2B22360AD8006A27AD /* KakaotalkUserProfileWithStatementViewCell.swift */; };
+		4307AF2E22360AD8006A27AD /* KakaotalkUserProfileWithStatementViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4307AF2C22360AD8006A27AD /* KakaotalkUserProfileWithStatementViewCell.xib */; };
+		4307AF3322360B56006A27AD /* KakaotalkProfileWithStatementViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307AF3122360B56006A27AD /* KakaotalkProfileWithStatementViewCell.swift */; };
+		4307AF3422360B56006A27AD /* KakaotalkProfileWithStatementViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4307AF3222360B56006A27AD /* KakaotalkProfileWithStatementViewCell.xib */; };
+		4307AF362236438A006A27AD /* UserProfileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307AF352236438A006A27AD /* UserProfileDetailViewController.swift */; };
+		4307AF38223643B2006A27AD /* ProfileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307AF37223643B2006A27AD /* ProfileDetailViewController.swift */; };
+		4307AF3C22379850006A27AD /* ShowProfileImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307AF3B22379850006A27AD /* ShowProfileImageViewController.swift */; };
+		4307AF66223A0446006A27AD /* EditprofileNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307AF65223A0446006A27AD /* EditprofileNameViewController.swift */; };
+		432102AE223BBFA900104E72 /* ProfileDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432102AD223BBFA900104E72 /* ProfileDataSet.swift */; };
+		432102B0223BD5B000104E72 /* AddProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432102AF223BD5AF00104E72 /* AddProfileViewController.swift */; };
+		4321031D223F586A00104E72 /* NanumSquareExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43210306223F586800104E72 /* NanumSquareExtraBold.ttf */; };
+		4321031E223F586A00104E72 /* NanumGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43210307223F586800104E72 /* NanumGothic.ttf */; };
+		4321031F223F586A00104E72 /* NanumMyeongjoExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43210308223F586800104E72 /* NanumMyeongjoExtraBold.ttf */; };
+		43210320223F586A00104E72 /* NanumBrush.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43210309223F586800104E72 /* NanumBrush.ttf */; };
+		43210321223F586A00104E72 /* NanumGothicBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4321030A223F586800104E72 /* NanumGothicBold.ttf */; };
+		43210322223F586A00104E72 /* NanumMyeongjo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4321030B223F586800104E72 /* NanumMyeongjo.ttf */; };
+		43210323223F586A00104E72 /* NanumSquareRoundEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4321030C223F586800104E72 /* NanumSquareRoundEB.ttf */; };
+		43210324223F586A00104E72 /* NanumSquareBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4321030D223F586800104E72 /* NanumSquareBold.ttf */; };
+		43210325223F586A00104E72 /* NanumSquareRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4321030E223F586800104E72 /* NanumSquareRegular.ttf */; };
+		43210326223F586A00104E72 /* NanumPen.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4321030F223F586800104E72 /* NanumPen.ttf */; };
+		43210327223F586A00104E72 /* NanumSquareRoundB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43210310223F586800104E72 /* NanumSquareRoundB.ttf */; };
+		43210328223F586A00104E72 /* NanumGothicExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43210311223F586800104E72 /* NanumGothicExtraBold.ttf */; };
+		43210329223F586A00104E72 /* NanumBarunGothicUltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43210312223F586800104E72 /* NanumBarunGothicUltraLight.ttf */; };
+		4321032A223F586A00104E72 /* NanumBarunpenRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43210313223F586900104E72 /* NanumBarunpenRegular.ttf */; };
+		4321032B223F586A00104E72 /* NanumMyeongjoBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43210314223F586900104E72 /* NanumMyeongjoBold.ttf */; };
+		4321032C223F586A00104E72 /* NanumSquareRoundR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43210315223F586900104E72 /* NanumSquareRoundR.ttf */; };
+		4321032D223F586A00104E72 /* NanumBarunGothicBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43210316223F586900104E72 /* NanumBarunGothicBold.ttf */; };
+		4321032E223F586A00104E72 /* NanumBarunpenBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43210317223F586900104E72 /* NanumBarunpenBold.ttf */; };
+		4321032F223F586A00104E72 /* NanumBarunGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43210318223F586900104E72 /* NanumBarunGothic.ttf */; };
+		43210330223F586A00104E72 /* NanumSquareLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43210319223F586900104E72 /* NanumSquareLight.ttf */; };
+		43210331223F586A00104E72 /* NanumBarunGothicLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4321031A223F586900104E72 /* NanumBarunGothicLight.ttf */; };
+		43210332223F586A00104E72 /* NanumGothicLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4321031B223F586900104E72 /* NanumGothicLight.ttf */; };
+		43210333223F586A00104E72 /* NanumSquareRoundL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4321031C223F586900104E72 /* NanumSquareRoundL.ttf */; };
+		432103482240EC6300104E72 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432103472240EC6300104E72 /* GameViewController.swift */; };
+		4321034B2240ED2C00104E72 /* GameTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4321034A2240ED2C00104E72 /* GameTabViewController.swift */; };
+		43D3513B2233E7EE00D67BE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3513A2233E7EE00D67BE1 /* AppDelegate.swift */; };
+		43D3513D2233E7EE00D67BE1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3513C2233E7EE00D67BE1 /* ProfileViewController.swift */; };
+		43D3513F2233E7EE00D67BE1 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3513E2233E7EE00D67BE1 /* MessageViewController.swift */; };
+		43D351422233E7EE00D67BE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43D351402233E7EE00D67BE1 /* Main.storyboard */; };
+		43D351442233E7F200D67BE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43D351432233E7F200D67BE1 /* Assets.xcassets */; };
+		43D351472233E7F200D67BE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43D351452233E7F200D67BE1 /* LaunchScreen.storyboard */; };
+		43D351522233E7F200D67BE1 /* CopyKakaoTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D351512233E7F200D67BE1 /* CopyKakaoTalkTests.swift */; };
+		43D3515D2233E7F300D67BE1 /* CopyKakaoTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3515C2233E7F300D67BE1 /* CopyKakaoTalkUITests.swift */; };
+		43D3516B2233F38400D67BE1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3516A2233F38400D67BE1 /* LoginViewController.swift */; };
+		43D3516D2233F5EF00D67BE1 /* ChattingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3516C2233F5EF00D67BE1 /* ChattingPageViewController.swift */; };
+		43D3516F2233F65000D67BE1 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3516E2233F65000D67BE1 /* MainTabViewController.swift */; };
+		43D351712233F83100D67BE1 /* KakaotalkProfileViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43D351702233F83100D67BE1 /* KakaotalkProfileViewCell.xib */; };
+		43D351732233F88000D67BE1 /* KakaotalkProfileViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D351722233F88000D67BE1 /* KakaotalkProfileViewCell.swift */; };
+		43D351932234234700D67BE1 /* ScreenSaverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D351922234234700D67BE1 /* ScreenSaverViewController.swift */; };
+		43D351952234283800D67BE1 /* KakaotalkChattingRoomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43D351942234283800D67BE1 /* KakaotalkChattingRoomCell.xib */; };
+		43D351972234286000D67BE1 /* KakaotalkChattingRoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D351962234286000D67BE1 /* KakaotalkChattingRoomCell.swift */; };
+		43D35199223495C200D67BE1 /* ProfileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D35198223495C200D67BE1 /* ProfileInfo.swift */; };
+		43D3519C22350C5E00D67BE1 /* KakaotalkUserProfileViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D3519A22350C5E00D67BE1 /* KakaotalkUserProfileViewCell.swift */; };
+		43D3519D22350C5E00D67BE1 /* KakaotalkUserProfileViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43D3519B22350C5E00D67BE1 /* KakaotalkUserProfileViewCell.xib */; };
+		43D8FC0822437F1A00C0B400 /* HVD_Comic_Serif_Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43D8FC0722437F1900C0B400 /* HVD_Comic_Serif_Pro.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43D3514E2233E7F200D67BE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43D3512F2233E7EE00D67BE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43D351362233E7EE00D67BE1;
+			remoteInfo = CopyKakaoTalk;
+		};
+		43D351592233E7F300D67BE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43D3512F2233E7EE00D67BE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43D351362233E7EE00D67BE1;
+			remoteInfo = CopyKakaoTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4307AF2B22360AD8006A27AD /* KakaotalkUserProfileWithStatementViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaotalkUserProfileWithStatementViewCell.swift; sourceTree = "<group>"; };
+		4307AF2C22360AD8006A27AD /* KakaotalkUserProfileWithStatementViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KakaotalkUserProfileWithStatementViewCell.xib; sourceTree = "<group>"; };
+		4307AF3122360B56006A27AD /* KakaotalkProfileWithStatementViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaotalkProfileWithStatementViewCell.swift; sourceTree = "<group>"; };
+		4307AF3222360B56006A27AD /* KakaotalkProfileWithStatementViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KakaotalkProfileWithStatementViewCell.xib; sourceTree = "<group>"; };
+		4307AF352236438A006A27AD /* UserProfileDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileDetailViewController.swift; sourceTree = "<group>"; };
+		4307AF37223643B2006A27AD /* ProfileDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailViewController.swift; sourceTree = "<group>"; };
+		4307AF3B22379850006A27AD /* ShowProfileImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProfileImageViewController.swift; sourceTree = "<group>"; };
+		4307AF65223A0446006A27AD /* EditprofileNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditprofileNameViewController.swift; sourceTree = "<group>"; };
+		432102AD223BBFA900104E72 /* ProfileDataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataSet.swift; sourceTree = "<group>"; };
+		432102AF223BD5AF00104E72 /* AddProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProfileViewController.swift; sourceTree = "<group>"; };
+		43210306223F586800104E72 /* NanumSquareExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareExtraBold.ttf; sourceTree = "<group>"; };
+		43210307223F586800104E72 /* NanumGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothic.ttf; sourceTree = "<group>"; };
+		43210308223F586800104E72 /* NanumMyeongjoExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumMyeongjoExtraBold.ttf; sourceTree = "<group>"; };
+		43210309223F586800104E72 /* NanumBrush.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBrush.ttf; sourceTree = "<group>"; };
+		4321030A223F586800104E72 /* NanumGothicBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicBold.ttf; sourceTree = "<group>"; };
+		4321030B223F586800104E72 /* NanumMyeongjo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumMyeongjo.ttf; sourceTree = "<group>"; };
+		4321030C223F586800104E72 /* NanumSquareRoundEB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundEB.ttf; sourceTree = "<group>"; };
+		4321030D223F586800104E72 /* NanumSquareBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareBold.ttf; sourceTree = "<group>"; };
+		4321030E223F586800104E72 /* NanumSquareRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRegular.ttf; sourceTree = "<group>"; };
+		4321030F223F586800104E72 /* NanumPen.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumPen.ttf; sourceTree = "<group>"; };
+		43210310223F586800104E72 /* NanumSquareRoundB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundB.ttf; sourceTree = "<group>"; };
+		43210311223F586800104E72 /* NanumGothicExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicExtraBold.ttf; sourceTree = "<group>"; };
+		43210312223F586800104E72 /* NanumBarunGothicUltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunGothicUltraLight.ttf; sourceTree = "<group>"; };
+		43210313223F586900104E72 /* NanumBarunpenRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunpenRegular.ttf; sourceTree = "<group>"; };
+		43210314223F586900104E72 /* NanumMyeongjoBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumMyeongjoBold.ttf; sourceTree = "<group>"; };
+		43210315223F586900104E72 /* NanumSquareRoundR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundR.ttf; sourceTree = "<group>"; };
+		43210316223F586900104E72 /* NanumBarunGothicBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunGothicBold.ttf; sourceTree = "<group>"; };
+		43210317223F586900104E72 /* NanumBarunpenBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunpenBold.ttf; sourceTree = "<group>"; };
+		43210318223F586900104E72 /* NanumBarunGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunGothic.ttf; sourceTree = "<group>"; };
+		43210319223F586900104E72 /* NanumSquareLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareLight.ttf; sourceTree = "<group>"; };
+		4321031A223F586900104E72 /* NanumBarunGothicLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunGothicLight.ttf; sourceTree = "<group>"; };
+		4321031B223F586900104E72 /* NanumGothicLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicLight.ttf; sourceTree = "<group>"; };
+		4321031C223F586900104E72 /* NanumSquareRoundL.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundL.ttf; sourceTree = "<group>"; };
+		432103472240EC6300104E72 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4321034A2240ED2C00104E72 /* GameTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTabViewController.swift; sourceTree = "<group>"; };
+		43D351372233E7EE00D67BE1 /* CopyKakaoTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopyKakaoTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D3513A2233E7EE00D67BE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43D3513C2233E7EE00D67BE1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		43D3513E2233E7EE00D67BE1 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		43D351412233E7EE00D67BE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43D351432233E7F200D67BE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43D351462233E7F200D67BE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43D351482233E7F200D67BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D3514D2233E7F200D67BE1 /* CopyKakaoTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopyKakaoTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D351512233E7F200D67BE1 /* CopyKakaoTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyKakaoTalkTests.swift; sourceTree = "<group>"; };
+		43D351532233E7F200D67BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D351582233E7F300D67BE1 /* CopyKakaoTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopyKakaoTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D3515C2233E7F300D67BE1 /* CopyKakaoTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyKakaoTalkUITests.swift; sourceTree = "<group>"; };
+		43D3515E2233E7F300D67BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D3516A2233F38400D67BE1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		43D3516C2233F5EF00D67BE1 /* ChattingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingPageViewController.swift; sourceTree = "<group>"; };
+		43D3516E2233F65000D67BE1 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		43D351702233F83100D67BE1 /* KakaotalkProfileViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KakaotalkProfileViewCell.xib; sourceTree = "<group>"; };
+		43D351722233F88000D67BE1 /* KakaotalkProfileViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaotalkProfileViewCell.swift; sourceTree = "<group>"; };
+		43D351922234234700D67BE1 /* ScreenSaverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSaverViewController.swift; sourceTree = "<group>"; };
+		43D351942234283800D67BE1 /* KakaotalkChattingRoomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KakaotalkChattingRoomCell.xib; sourceTree = "<group>"; };
+		43D351962234286000D67BE1 /* KakaotalkChattingRoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaotalkChattingRoomCell.swift; sourceTree = "<group>"; };
+		43D35198223495C200D67BE1 /* ProfileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfo.swift; sourceTree = "<group>"; };
+		43D3519A22350C5E00D67BE1 /* KakaotalkUserProfileViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaotalkUserProfileViewCell.swift; sourceTree = "<group>"; };
+		43D3519B22350C5E00D67BE1 /* KakaotalkUserProfileViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KakaotalkUserProfileViewCell.xib; sourceTree = "<group>"; };
+		43D8FC0722437F1900C0B400 /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HVD_Comic_Serif_Pro.otf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43D351342233E7EE00D67BE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D3514A2233E7F200D67BE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D351552233E7F300D67BE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		432103492240ECFC00104E72 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				4321034A2240ED2C00104E72 /* GameTabViewController.swift */,
+				432103472240EC6300104E72 /* GameViewController.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		43D3512E2233E7EE00D67BE1 = {
+			isa = PBXGroup;
+			children = (
+				43D351392233E7EE00D67BE1 /* CopyKakaoTalk */,
+				43D351502233E7F200D67BE1 /* CopyKakaoTalkTests */,
+				43D3515B2233E7F300D67BE1 /* CopyKakaoTalkUITests */,
+				43D351382233E7EE00D67BE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43D351382233E7EE00D67BE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43D351372233E7EE00D67BE1 /* CopyKakaoTalk.app */,
+				43D3514D2233E7F200D67BE1 /* CopyKakaoTalkTests.xctest */,
+				43D351582233E7F300D67BE1 /* CopyKakaoTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43D351392233E7EE00D67BE1 /* CopyKakaoTalk */ = {
+			isa = PBXGroup;
+			children = (
+				43D3517722340C8500D67BE1 /* fonts */,
+				43D351752233FCE800D67BE1 /* Profile */,
+				43D351762233FD6200D67BE1 /* Message */,
+				432103492240ECFC00104E72 /* Game */,
+				43D351742233FCCA00D67BE1 /* CustomCellxib */,
+				43D3513A2233E7EE00D67BE1 /* AppDelegate.swift */,
+				43D3516A2233F38400D67BE1 /* LoginViewController.swift */,
+				43D351922234234700D67BE1 /* ScreenSaverViewController.swift */,
+				43D3516E2233F65000D67BE1 /* MainTabViewController.swift */,
+				43D35198223495C200D67BE1 /* ProfileInfo.swift */,
+				432102AD223BBFA900104E72 /* ProfileDataSet.swift */,
+				43D351402233E7EE00D67BE1 /* Main.storyboard */,
+				43D351432233E7F200D67BE1 /* Assets.xcassets */,
+				43D351452233E7F200D67BE1 /* LaunchScreen.storyboard */,
+				43D351482233E7F200D67BE1 /* Info.plist */,
+			);
+			path = CopyKakaoTalk;
+			sourceTree = "<group>";
+		};
+		43D351502233E7F200D67BE1 /* CopyKakaoTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				43D351512233E7F200D67BE1 /* CopyKakaoTalkTests.swift */,
+				43D351532233E7F200D67BE1 /* Info.plist */,
+			);
+			path = CopyKakaoTalkTests;
+			sourceTree = "<group>";
+		};
+		43D3515B2233E7F300D67BE1 /* CopyKakaoTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43D3515C2233E7F300D67BE1 /* CopyKakaoTalkUITests.swift */,
+				43D3515E2233E7F300D67BE1 /* Info.plist */,
+			);
+			path = CopyKakaoTalkUITests;
+			sourceTree = "<group>";
+		};
+		43D351742233FCCA00D67BE1 /* CustomCellxib */ = {
+			isa = PBXGroup;
+			children = (
+				43D3519E22350EE400D67BE1 /* Profile */,
+				43D3519F22350EFE00D67BE1 /* Message */,
+			);
+			path = CustomCellxib;
+			sourceTree = "<group>";
+		};
+		43D351752233FCE800D67BE1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				43D3513C2233E7EE00D67BE1 /* ProfileViewController.swift */,
+				4307AF352236438A006A27AD /* UserProfileDetailViewController.swift */,
+				4307AF37223643B2006A27AD /* ProfileDetailViewController.swift */,
+				4307AF3B22379850006A27AD /* ShowProfileImageViewController.swift */,
+				4307AF65223A0446006A27AD /* EditprofileNameViewController.swift */,
+				432102AF223BD5AF00104E72 /* AddProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		43D351762233FD6200D67BE1 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				43D3513E2233E7EE00D67BE1 /* MessageViewController.swift */,
+				43D3516C2233F5EF00D67BE1 /* ChattingPageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		43D3517722340C8500D67BE1 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				43D8FC0722437F1900C0B400 /* HVD_Comic_Serif_Pro.otf */,
+				43210318223F586900104E72 /* NanumBarunGothic.ttf */,
+				43210316223F586900104E72 /* NanumBarunGothicBold.ttf */,
+				4321031A223F586900104E72 /* NanumBarunGothicLight.ttf */,
+				43210312223F586800104E72 /* NanumBarunGothicUltraLight.ttf */,
+				43210317223F586900104E72 /* NanumBarunpenBold.ttf */,
+				43210313223F586900104E72 /* NanumBarunpenRegular.ttf */,
+				43210309223F586800104E72 /* NanumBrush.ttf */,
+				43210307223F586800104E72 /* NanumGothic.ttf */,
+				4321030A223F586800104E72 /* NanumGothicBold.ttf */,
+				43210311223F586800104E72 /* NanumGothicExtraBold.ttf */,
+				4321031B223F586900104E72 /* NanumGothicLight.ttf */,
+				4321030B223F586800104E72 /* NanumMyeongjo.ttf */,
+				43210314223F586900104E72 /* NanumMyeongjoBold.ttf */,
+				43210308223F586800104E72 /* NanumMyeongjoExtraBold.ttf */,
+				4321030F223F586800104E72 /* NanumPen.ttf */,
+				4321030D223F586800104E72 /* NanumSquareBold.ttf */,
+				43210306223F586800104E72 /* NanumSquareExtraBold.ttf */,
+				43210319223F586900104E72 /* NanumSquareLight.ttf */,
+				4321030E223F586800104E72 /* NanumSquareRegular.ttf */,
+				43210310223F586800104E72 /* NanumSquareRoundB.ttf */,
+				4321030C223F586800104E72 /* NanumSquareRoundEB.ttf */,
+				4321031C223F586900104E72 /* NanumSquareRoundL.ttf */,
+				43210315223F586900104E72 /* NanumSquareRoundR.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		43D3519E22350EE400D67BE1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				43D3519B22350C5E00D67BE1 /* KakaotalkUserProfileViewCell.xib */,
+				43D3519A22350C5E00D67BE1 /* KakaotalkUserProfileViewCell.swift */,
+				4307AF2C22360AD8006A27AD /* KakaotalkUserProfileWithStatementViewCell.xib */,
+				4307AF2B22360AD8006A27AD /* KakaotalkUserProfileWithStatementViewCell.swift */,
+				43D351702233F83100D67BE1 /* KakaotalkProfileViewCell.xib */,
+				43D351722233F88000D67BE1 /* KakaotalkProfileViewCell.swift */,
+				4307AF3222360B56006A27AD /* KakaotalkProfileWithStatementViewCell.xib */,
+				4307AF3122360B56006A27AD /* KakaotalkProfileWithStatementViewCell.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		43D3519F22350EFE00D67BE1 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				43D351942234283800D67BE1 /* KakaotalkChattingRoomCell.xib */,
+				43D351962234286000D67BE1 /* KakaotalkChattingRoomCell.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43D351362233E7EE00D67BE1 /* CopyKakaoTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D351612233E7F300D67BE1 /* Build configuration list for PBXNativeTarget "CopyKakaoTalk" */;
+			buildPhases = (
+				43D351332233E7EE00D67BE1 /* Sources */,
+				43D351342233E7EE00D67BE1 /* Frameworks */,
+				43D351352233E7EE00D67BE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CopyKakaoTalk;
+			productName = CopyKakaoTalk;
+			productReference = 43D351372233E7EE00D67BE1 /* CopyKakaoTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43D3514C2233E7F200D67BE1 /* CopyKakaoTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D351642233E7F300D67BE1 /* Build configuration list for PBXNativeTarget "CopyKakaoTalkTests" */;
+			buildPhases = (
+				43D351492233E7F200D67BE1 /* Sources */,
+				43D3514A2233E7F200D67BE1 /* Frameworks */,
+				43D3514B2233E7F200D67BE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43D3514F2233E7F200D67BE1 /* PBXTargetDependency */,
+			);
+			name = CopyKakaoTalkTests;
+			productName = CopyKakaoTalkTests;
+			productReference = 43D3514D2233E7F200D67BE1 /* CopyKakaoTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43D351572233E7F300D67BE1 /* CopyKakaoTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D351672233E7F300D67BE1 /* Build configuration list for PBXNativeTarget "CopyKakaoTalkUITests" */;
+			buildPhases = (
+				43D351542233E7F300D67BE1 /* Sources */,
+				43D351552233E7F300D67BE1 /* Frameworks */,
+				43D351562233E7F300D67BE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43D3515A2233E7F300D67BE1 /* PBXTargetDependency */,
+			);
+			name = CopyKakaoTalkUITests;
+			productName = CopyKakaoTalkUITests;
+			productReference = 43D351582233E7F300D67BE1 /* CopyKakaoTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43D3512F2233E7EE00D67BE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "YooBin Jo";
+				TargetAttributes = {
+					43D351362233E7EE00D67BE1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					43D3514C2233E7F200D67BE1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 43D351362233E7EE00D67BE1;
+					};
+					43D351572233E7F300D67BE1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 43D351362233E7EE00D67BE1;
+					};
+				};
+			};
+			buildConfigurationList = 43D351322233E7EE00D67BE1 /* Build configuration list for PBXProject "CopyKakaoTalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43D3512E2233E7EE00D67BE1;
+			productRefGroup = 43D351382233E7EE00D67BE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43D351362233E7EE00D67BE1 /* CopyKakaoTalk */,
+				43D3514C2233E7F200D67BE1 /* CopyKakaoTalkTests */,
+				43D351572233E7F300D67BE1 /* CopyKakaoTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43D351352233E7EE00D67BE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43210329223F586A00104E72 /* NanumBarunGothicUltraLight.ttf in Resources */,
+				4321032B223F586A00104E72 /* NanumMyeongjoBold.ttf in Resources */,
+				43D8FC0822437F1A00C0B400 /* HVD_Comic_Serif_Pro.otf in Resources */,
+				43210324223F586A00104E72 /* NanumSquareBold.ttf in Resources */,
+				4321032A223F586A00104E72 /* NanumBarunpenRegular.ttf in Resources */,
+				43210322223F586A00104E72 /* NanumMyeongjo.ttf in Resources */,
+				4321032F223F586A00104E72 /* NanumBarunGothic.ttf in Resources */,
+				43D351952234283800D67BE1 /* KakaotalkChattingRoomCell.xib in Resources */,
+				43210321223F586A00104E72 /* NanumGothicBold.ttf in Resources */,
+				43210330223F586A00104E72 /* NanumSquareLight.ttf in Resources */,
+				43210320223F586A00104E72 /* NanumBrush.ttf in Resources */,
+				4307AF3422360B56006A27AD /* KakaotalkProfileWithStatementViewCell.xib in Resources */,
+				43D351712233F83100D67BE1 /* KakaotalkProfileViewCell.xib in Resources */,
+				4307AF2E22360AD8006A27AD /* KakaotalkUserProfileWithStatementViewCell.xib in Resources */,
+				4321032C223F586A00104E72 /* NanumSquareRoundR.ttf in Resources */,
+				4321031E223F586A00104E72 /* NanumGothic.ttf in Resources */,
+				43D351472233E7F200D67BE1 /* LaunchScreen.storyboard in Resources */,
+				43D3519D22350C5E00D67BE1 /* KakaotalkUserProfileViewCell.xib in Resources */,
+				43210331223F586A00104E72 /* NanumBarunGothicLight.ttf in Resources */,
+				43210327223F586A00104E72 /* NanumSquareRoundB.ttf in Resources */,
+				43210323223F586A00104E72 /* NanumSquareRoundEB.ttf in Resources */,
+				4321031F223F586A00104E72 /* NanumMyeongjoExtraBold.ttf in Resources */,
+				43210332223F586A00104E72 /* NanumGothicLight.ttf in Resources */,
+				4321032E223F586A00104E72 /* NanumBarunpenBold.ttf in Resources */,
+				43210325223F586A00104E72 /* NanumSquareRegular.ttf in Resources */,
+				43D351442233E7F200D67BE1 /* Assets.xcassets in Resources */,
+				4321032D223F586A00104E72 /* NanumBarunGothicBold.ttf in Resources */,
+				4321031D223F586A00104E72 /* NanumSquareExtraBold.ttf in Resources */,
+				43210326223F586A00104E72 /* NanumPen.ttf in Resources */,
+				43210328223F586A00104E72 /* NanumGothicExtraBold.ttf in Resources */,
+				43210333223F586A00104E72 /* NanumSquareRoundL.ttf in Resources */,
+				43D351422233E7EE00D67BE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D3514B2233E7F200D67BE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D351562233E7F300D67BE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43D351332233E7EE00D67BE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432103482240EC6300104E72 /* GameViewController.swift in Sources */,
+				4307AF362236438A006A27AD /* UserProfileDetailViewController.swift in Sources */,
+				43D3516B2233F38400D67BE1 /* LoginViewController.swift in Sources */,
+				4307AF2D22360AD8006A27AD /* KakaotalkUserProfileWithStatementViewCell.swift in Sources */,
+				4307AF3C22379850006A27AD /* ShowProfileImageViewController.swift in Sources */,
+				43D3513F2233E7EE00D67BE1 /* MessageViewController.swift in Sources */,
+				43D351932234234700D67BE1 /* ScreenSaverViewController.swift in Sources */,
+				4321034B2240ED2C00104E72 /* GameTabViewController.swift in Sources */,
+				432102B0223BD5B000104E72 /* AddProfileViewController.swift in Sources */,
+				4307AF3322360B56006A27AD /* KakaotalkProfileWithStatementViewCell.swift in Sources */,
+				43D3516D2233F5EF00D67BE1 /* ChattingPageViewController.swift in Sources */,
+				43D3513B2233E7EE00D67BE1 /* AppDelegate.swift in Sources */,
+				43D35199223495C200D67BE1 /* ProfileInfo.swift in Sources */,
+				43D3513D2233E7EE00D67BE1 /* ProfileViewController.swift in Sources */,
+				4307AF38223643B2006A27AD /* ProfileDetailViewController.swift in Sources */,
+				432102AE223BBFA900104E72 /* ProfileDataSet.swift in Sources */,
+				43D351972234286000D67BE1 /* KakaotalkChattingRoomCell.swift in Sources */,
+				4307AF66223A0446006A27AD /* EditprofileNameViewController.swift in Sources */,
+				43D3519C22350C5E00D67BE1 /* KakaotalkUserProfileViewCell.swift in Sources */,
+				43D3516F2233F65000D67BE1 /* MainTabViewController.swift in Sources */,
+				43D351732233F88000D67BE1 /* KakaotalkProfileViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D351492233E7F200D67BE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D351522233E7F200D67BE1 /* CopyKakaoTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D351542233E7F300D67BE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D3515D2233E7F300D67BE1 /* CopyKakaoTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43D3514F2233E7F200D67BE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43D351362233E7EE00D67BE1 /* CopyKakaoTalk */;
+			targetProxy = 43D3514E2233E7F200D67BE1 /* PBXContainerItemProxy */;
+		};
+		43D3515A2233E7F300D67BE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43D351362233E7EE00D67BE1 /* CopyKakaoTalk */;
+			targetProxy = 43D351592233E7F300D67BE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43D351402233E7EE00D67BE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43D351412233E7EE00D67BE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43D351452233E7F200D67BE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43D351462233E7F200D67BE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43D3515F2233E7F300D67BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43D351602233E7F300D67BE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43D351622233E7F300D67BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6M94RM5DH9;
+				INFOPLIST_FILE = CopyKakaoTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rubin.CopyKakaoTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43D351632233E7F300D67BE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6M94RM5DH9;
+				INFOPLIST_FILE = CopyKakaoTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rubin.CopyKakaoTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43D351652233E7F300D67BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9MTC983FS;
+				INFOPLIST_FILE = CopyKakaoTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rubin.CopyKakaoTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CopyKakaoTalk.app/CopyKakaoTalk";
+			};
+			name = Debug;
+		};
+		43D351662233E7F300D67BE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9MTC983FS;
+				INFOPLIST_FILE = CopyKakaoTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rubin.CopyKakaoTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CopyKakaoTalk.app/CopyKakaoTalk";
+			};
+			name = Release;
+		};
+		43D351682233E7F300D67BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9MTC983FS;
+				INFOPLIST_FILE = CopyKakaoTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rubin.CopyKakaoTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CopyKakaoTalk;
+			};
+			name = Debug;
+		};
+		43D351692233E7F300D67BE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9MTC983FS;
+				INFOPLIST_FILE = CopyKakaoTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rubin.CopyKakaoTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CopyKakaoTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43D351322233E7EE00D67BE1 /* Build configuration list for PBXProject "CopyKakaoTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D3515F2233E7F300D67BE1 /* Debug */,
+				43D351602233E7F300D67BE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43D351612233E7F300D67BE1 /* Build configuration list for PBXNativeTarget "CopyKakaoTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D351622233E7F300D67BE1 /* Debug */,
+				43D351632233E7F300D67BE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43D351642233E7F300D67BE1 /* Build configuration list for PBXNativeTarget "CopyKakaoTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D351652233E7F300D67BE1 /* Debug */,
+				43D351662233E7F300D67BE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43D351672233E7F300D67BE1 /* Build configuration list for PBXNativeTarget "CopyKakaoTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D351682233E7F300D67BE1 /* Debug */,
+				43D351692233E7F300D67BE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43D3512F2233E7EE00D67BE1 /* Project object */;
+}
